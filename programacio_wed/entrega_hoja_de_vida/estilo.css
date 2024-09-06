@@ -1,0 +1,137 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: #554971;
+}
+.name{
+   width: 105%;
+   height: 300px;
+   background-color: #63768D;
+   transform: skewY(-5deg);
+}     
+.name .contenedor{
+   width: 50%;
+   height: 50%;
+   position: absolute;
+   left: 20%;
+   
+   
+}
+@media(max-width:200px){
+.name {
+   width: 50%;
+   height: 150px;
+}
+}
+.name .img{
+   position: absolute;
+   top: 20%;
+   right: 5%;
+   width: 180px;
+   height: 180px;
+   border-radius: 100%;
+   transform: skewY(5deg);
+   overflow: hidden;
+
+}
+.name .img img{
+   width: 180px;
+   height: 230px;
+}
+.name .contenedor .p1{
+   color: #8AC6D0;
+   font-family: "Playfair Display", system-ui;
+   font-size: 60px;
+  font-weight: bolder;
+  transform: skewY(5deg);
+  margin-bottom: 0;
+  
+}
+@media(max-width:992px){
+   .name .contenedor .p1{
+      font-size: 30px;
+   }
+   .name .contenedor .p2{
+      font-size: 50px;
+   }
+   .name .contenedor {
+      left: 15%;
+   }
+}
+@media(max-width:1200px){
+   .name .contenedor .p1{
+      font-size: 40px;
+   }
+   .name .contenedor .p2{
+      font-size: 60px;
+   }
+   .name .contenedor {
+      left: 20%;
+   }
+}
+.name .contenedor .p2{
+   color: #8AC6D0;
+   font-family: "Playfair Display", system-ui;
+  font-size: 35px;
+  transform: skewY(5deg);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.info{
+   width: 90%;
+   height: auto;
+   background: #36213E;
+   margin: 5% auto;
+   padding: 20px;
+   border-radius: 10px;
+}
+.info .tituloseccion{
+   color: #63768D ;
+   font-family: "Playfair Display",serif;
+   font-size: xx-large;
+   text-align: center;
+   font-weight: bolder;
+   border-bottom: 2px #63768D dashed;
+}
+.info .tituloinformacion{
+   color: #63768D ;
+   font-family: "Playfair Display",serif;
+   font-weight: bolder;
+   font-size: large;
+   display: inline;
+   margin-right: 20px;
+}
+
+.info .infoinfo{
+   color: #B8F3FF ;
+   font-family: "Playfair Display",serif;
+   font-weight: normal;
+   font-size: large;
+   display: inline;
+}
+.info .i1{
+   color: #63768D ;
+   font-family: "Playfair Display",serif;
+   font-weight: bolder;
+   font-size: large;
+   display: inline;
+   margin-right: 20px;
+}
+.info .i2{
+   color: #B8F3FF ;
+   font-family: "Playfair Display",serif;
+   font-weight: normal;
+   font-size: large;
+   display: inline;
+}
+.info span{
+   display: inline block;
+   width: auto;
+   height: auto;
+   padding-left: 1%;
+   padding-right: 1%;
+   background: chocolate;
+   color: white;
+   font-family: "Playfair Display",serif;
+   border-radius: 5px;
+}
